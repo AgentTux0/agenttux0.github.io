@@ -1,0 +1,34 @@
+{
+	"name": "svelte-gh-pages-quickstart",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+		"test": "playwright test",
+		"lint": "prettier --check --plugin-search-dir=. .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.26.1",
+		"@rgossiaux/svelte-headlessui": "^1.0.2",
+		"@rgossiaux/svelte-heroicons": "^0.1.2",
+		"@sveltejs/adapter-static": "^1.0.0-next.34",
+		"@sveltejs/kit": "^1.0.0-next.468",
+		"@sveltejs/vite-plugin-svelte": "^1.0.8",
+		"autoprefixer": "^10.4.12",
+		"postcss": "^8.4.17",
+		"postcss-load-config": "^3.1.4",
+		"prettier": "^2.7.1",
+		"prettier-plugin-svelte": "^2.7.1",
+		"svelte": "^3.50.1",
+		"svelte-check": "^2.9.1",
+		"svelte-preprocess": "^4.10.7",
+		"svelte-seo": "^1.4.1",
+		"tailwindcss": "^3.1.8",
+		"typescript": "~4.6.2"
+	},
+	"type": "module"
+}
